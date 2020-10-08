@@ -97,9 +97,9 @@ class RazzList extends React.Component {
           {members}
         </ul>
         <button onClick={this.makeList}>Show Spots</button>
-        <ol>
+        <ul>
           {spots}
-        </ol>
+        </ul>
       </div>
     );
   }

@@ -57,9 +57,11 @@ class RazzList extends React.Component {
     for(let i=0; i<this.state.numberOfSpots;i++){
       full.push("Video");
     }
+    /**
     for(let i = 0; i< full.length; i++){
       full[i] = (i+1).toString() + ". " + full[i];
     }
+    */
     this.setState({
       fullList : full
     });
